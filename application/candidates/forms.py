@@ -3,7 +3,7 @@ from wtforms import StringField, BooleanField
 
 class CandidateForm(FlaskForm):
     name = StringField("Candidate name")
-    url = StringField("Candidate URL, e.g. IMDB page")
+    url = StringField("Candidate URL, e.g. Aniwave page")
  
     class Meta:
         csrf = False
